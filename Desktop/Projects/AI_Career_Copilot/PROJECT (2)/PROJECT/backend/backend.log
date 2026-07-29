@@ -1,0 +1,4757 @@
+✅ Loaded offline database (Profiles: 2)
+◇ injected env (13) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+URI: mongodb+srv://careercopilot:CareerCopilot2026@career-copilot-cluster.q35gzhu.mongodb.net/career_copilot?retryWrites=true&w=majority&appName=career-copilot-cluster
+MATCH_ENGINE=ats
+ATS ENGINE ACTIVE
+OPENAI_API_KEY present: true
+OPENAI_API_KEY length: 0
+Server running on port 5001
+⚠️ MongoDB disconnected.
+⚠️ MongoDB Connection Failed: bad auth : authentication failed
+⚠️ MongoDB connection error: bad auth : authentication failed
+🚀 Falling back to persistent offline JSON database.
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[EXTRACT RESUME] Raw LLM response (first 300 chars): {
+  "skills": ["Machine Learning", "Deep Learning", "Generative AI", "Python", "SQL", "Java", "JavaScript", "Large Language Models", "Prompt Engineering", "Retrieval-Augmented Generation", "AI Agents", "Function Calling", "Structured Output", "Embeddings", "Semantic Search", "Context Engineering"],
+
+[EXTRACT RESUME] skills: [
+  'machine learning',
+  'deep learning',
+  'generative ai',
+  'python',
+  'sql',
+  'java',
+  'javascript',
+  'large language models',
+  'prompt engineering',
+  'retrieval augmented generation',
+  'ai agents',
+  'function calling',
+  'structured output',
+  'embeddings',
+  'semantic search',
+  'context engineering'
+]
+[EXTRACT RESUME] jobTitles: [ 'Generative AI Internship' ]
+[EXTRACT RESUME] tools: [
+  'MLflow',     'Docker',
+  'Git',        'GitHub Actions',
+  'DVC',        'Pinecone',
+  'ChromaDB',   'FAISS',
+  'Weaviate',   'MongoDB',
+  'PostgreSQL', 'MySQL'
+]
+[EXTRACT RESUME] technologies: [ 'AWS', 'Google Cloud', 'REST APIs' ]
+[EXTRACT RESUME] frameworks: [
+  'Scikit-learn', 'XGBoost',
+  'CatBoost',     'LightGBM',
+  'Pandas',       'NumPy',
+  'PyTorch',      'TensorFlow',
+  'Keras',        'LangChain',
+  'LangGraph',    'FastAPI',
+  'Flask',        'Streamlit'
+]
+[STEP 2] Resume parsed (226929ms)
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[EXTRACT JD] Raw LLM response (first 300 chars): {
+  "skills": [
+    "Python",
+    "SQL",
+    "JavaScript",
+    "Supervised Learning",
+    "Model Evaluation",
+    "Feature Engineering",
+    "Data Preprocessing",
+    "Prompt Engineering",
+    "Large Language Models",
+    "Retrieval-Augmented Generation",
+    "Embeddings",
+    "Semantic Search",
+   
+[EXTRACT JD] skills: [
+  'python',
+  'sql',
+  'javascript',
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'prompt engineering',
+  'large language models',
+  'retrieval augmented generation',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'langgraph workflows',
+  'lora',
+  'qlora',
+  'fine tuning llms',
+  'llm evaluation',
+  'guardrails safety',
+  'tool calling',
+  'function calling',
+  'ai workflow automation',
+  'ci cd pipelines'
+]
+[EXTRACT JD] jobTitles: [ 'Generative AI Intern' ]
+[EXTRACT JD] tools: [ 'Git', 'GitHub', 'Docker', 'MLflow', 'Kubernetes' ]
+[EXTRACT JD] technologies: [
+  'AWS',
+  'Google Cloud',
+  'Azure',
+  'MongoDB',
+  'PostgreSQL',
+  'ChromaDB',
+  'FAISS',
+  'Pinecone',
+  'OpenAI API',
+  'Model Context Protocol',
+  'Vector Databases',
+  'Knowledge Graphs',
+  'Hugging Face Transformers'
+]
+[EXTRACT JD] frameworks: [ 'LangChain', 'LangGraph', 'FastAPI', 'Flask', 'Streamlit' ]
+[STEP 3] JD extracted (79391ms)
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="resume"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="jd"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+[STEP 4] Embeddings generated (32ms)
+[STEP 5] ATS Score calculated (14ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "machine learning",
+  "deep learning",
+  "generative ai",
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "large language models",
+  "prompt engineering",
+  "retrieval augmented generation",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "ai",
+  "data science",
+  "numpy",
+  "pandas",
+  "scikit learn",
+  "finite element analysis",
+  "mlflow",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "postgresql",
+  "mysql",
+  "aws",
+  "google cloud",
+  "rest apis",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models",
+  "retrieval augmented generation",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "lora",
+  "qlora",
+  "fine tuning llms",
+  "llm evaluation",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "ci cd pipelines",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "openai api",
+  "model context protocol",
+  "vector databases",
+  "knowledge graphs",
+  "hugging face transformers",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models',
+  'retrieval augmented generation',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'deep learning',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'openai api',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'nlp',
+  'multi agent systems',
+  'lora',
+  'qlora',
+  'fine tuning llms',
+  'llm evaluation',
+  'tool calling',
+  'ci cd pipelines',
+  'kubernetes',
+  'azure',
+  'model context protocol',
+  'vector databases',
+  'knowledge graphs',
+  'hugging face transformers',
+  'teamwork'
+]
+[SKILL SCORE] 65
+[SEMANTIC SCORE] 32
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 54
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+[QUALITY GATE] Baseline ATS Match Score: 54%
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[QUALITY GATE] Attempt 1: REJECTED at Verification Gate. Reasons: [
+  'Lost matched keyword: "retrieval augmented generation"',
+  'Lost matched keyword: "langgraph workflows"',
+  'Lost matched keyword: "guardrails safety"',
+  'Lost matched keyword: "ai workflow automation"'
+]
+[QUALITY GATE] Retry 2/3 with corrective feedback...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[QUALITY GATE] Attempt 2: REJECTED at Verification Gate. Reasons: [
+  'Lost matched keyword: "retrieval augmented generation"',
+  'Lost matched keyword: "langgraph workflows"',
+  'Lost matched keyword: "guardrails safety"',
+  'Lost matched keyword: "ai workflow automation"'
+]
+[QUALITY GATE] Retry 3/3 with corrective feedback...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[QUALITY GATE] Attempt 3: REJECTED at Verification Gate. Reasons: [
+  'Lost matched keyword: "retrieval augmented generation"',
+  'Lost matched keyword: "guardrails safety"',
+  'Lost matched keyword: "ai workflow automation"'
+]
+
+======================================================
+[QUALITY GATE] Resume Tailoring Run Complete
+======================================================
+Resume Parsing ........ 0ms (Cached)
+Gemini API ........... 285434ms (3 attempts)
+TOTAL ................. 591914ms
+Final Decision ........ REJECTED — Original Preserved
+
+┌─────────┬────────────┬───────┬───────┬──────────┬────────────────────────────────┐
+│ (index) │ Attempt    │ ATS   │ Skill │ Semantic │ Status                         │
+├─────────┼────────────┼───────┼───────┼──────────┼────────────────────────────────┤
+│ 0       │ 'Baseline' │ '54%' │ '65%' │ '32%'    │ '—'                            │
+│ 1       │ '1'        │ '0%'  │ '0%'  │ '0%'     │ 'REJECTED (VERIFICATION GATE)' │
+│ 2       │ '2'        │ '0%'  │ '0%'  │ '0%'     │ 'REJECTED (VERIFICATION GATE)' │
+│ 3       │ '3'        │ '0%'  │ '0%'  │ '0%'     │ 'REJECTED (VERIFICATION GATE)' │
+└─────────┴────────────┴───────┴───────┴──────────┴────────────────────────────────┘
+======================================================
+
+
+========================================
+[TAILOR] Request Cache HIT (Total Time: 3ms)
+========================================
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+
+========================================
+[TAILOR] Request Cache HIT (Total Time: 0ms)
+========================================
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[EXTRACT RESUME] Raw LLM response (first 300 chars): {
+  "skills": [
+    "Python",
+    "SQL",
+    "Java",
+    "JavaScript",
+    "Scikit-learn",
+    "XGBoost",
+    "CatBoost",
+    "LightGBM",
+    "Pandas",
+    "NumPy",
+    "PyTorch",
+    "TensorFlow",
+    "Keras",
+    "Large Language Models (LLMs)",
+    "Prompt Engineering",
+    "Retrieval-Augmented Ge
+[EXTRACT RESUME] skills: [
+  'python',
+  'sql',
+  'java',
+  'javascript',
+  'scikit learn',
+  'xgboost',
+  'catboost',
+  'lightgbm',
+  'pandas',
+  'numpy',
+  'pytorch',
+  'tensorflow',
+  'keras',
+  'large language models llms',
+  'prompt engineering',
+  'retrieval augmented generation rag',
+  'ai agents',
+  'function calling',
+  'structured output',
+  'embeddings',
+  'semantic search',
+  'context engineering'
+]
+[EXTRACT RESUME] jobTitles: [ 'Generative AI Internship' ]
+[EXTRACT RESUME] tools: [ 'Docker', 'Git', 'GitHub Actions', 'DVC', 'MLflow' ]
+[EXTRACT RESUME] technologies: [
+  'AWS (Basics)',
+  'Google Cloud (Basics)',
+  'MongoDB',
+  'PostgreSQL',
+  'MySQL',
+  'Pinecone',
+  'ChromaDB',
+  'FAISS',
+  'Weaviate'
+]
+[EXTRACT RESUME] frameworks: [
+  'FastAPI',
+  'Flask',
+  'Streamlit',
+  'REST APIs',
+  'LangChain',
+  'LangGraph'
+]
+[STEP 2] Resume parsed (28302ms)
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+[EXTRACT JD] Raw LLM response (first 300 chars): {
+  "skills": [
+    "Python",
+    "SQL",
+    "JavaScript",
+    "Supervised Learning",
+    "Model Evaluation",
+    "Feature Engineering",
+    "Data Preprocessing",
+    "Prompt Engineering",
+    "Large Language Models (LLMs)",
+    "OpenAI API",
+    "Retrieval-Augmented Generation (RAG)",
+    "Embeddin
+[EXTRACT JD] skills: [
+  'python',
+  'sql',
+  'javascript',
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'langgraph workflows',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'guardrails safety',
+  'tool calling',
+  'function calling',
+  'ai workflow automation'
+]
+[EXTRACT JD] jobTitles: [ 'Generative AI Intern', 'GenAI Intern' ]
+[EXTRACT JD] tools: [
+  'Git',
+  'GitHub',
+  'Docker',
+  'MLflow',
+  'Kubernetes',
+  'CI/CD Pipelines'
+]
+[EXTRACT JD] technologies: [
+  'AWS',
+  'Google Cloud',
+  'Azure',
+  'MongoDB',
+  'PostgreSQL',
+  'ChromaDB',
+  'FAISS',
+  'Pinecone',
+  'Hugging Face Transformers',
+  'LoRA',
+  'QLoRA',
+  'Vector Databases'
+]
+[EXTRACT JD] frameworks: [ 'LangChain', 'LangGraph', 'FastAPI', 'Flask', 'Streamlit' ]
+[STEP 3] JD extracted (59682ms)
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="resume"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="jd"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+[STEP 4] Embeddings generated (32ms)
+[STEP 5] ATS Score calculated (6ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models llms",
+  "openai api",
+  "retrieval augmented generation rag",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "mcp model context protocol",
+  "knowledge graphs",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "ci cd pipelines",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "hugging face transformers",
+  "lora",
+  "qlora",
+  "vector databases",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'tool calling',
+  'kubernetes',
+  'ci cd pipelines',
+  'azure',
+  'hugging face transformers',
+  'lora',
+  'qlora',
+  'vector databases',
+  'teamwork'
+]
+[SKILL SCORE] 66
+[SEMANTIC SCORE] 28
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 53
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 88062ms
+JD Title & Details ..... 4ms
+Database Shell Write ... 253ms
+TOTAL Latency .......... 88320ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+⚠️ AI generation timed out or failed after 45000ms: AI Request Timeout
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+✅ Success
+
+Raw LLM Detailed Analysis Response:
+{
+  "resumeSummary": "Third-year B.E. Artificial Intelligence & Data Science student with solid foundations in Python, machine learning, deep learning, and generative AI. Proven track record building LLM-powered applications using RAG, vector databases, LangChain, and FastAPI. Passionate about creating AI agents and intelligent automation solutions.",
+  "jdSummary": "The Generative AI Intern role focuses on developing LLM applications, Retrieval-Augmented Generation pipelines, prompt engineering, and AI agents using frameworks like LangChain, LangGraph, FastAPI/Flask. Responsibilities include building REST APIs, document processing, embeddings, semantic search, model evaluation with MLflow, and collaborating on AI integration while following MLOps best practices.",
+  "strengths": [
+    "Hands‑on LLM/RAG project experience (AI Resume Analyzer, PDF QA System, Multi‑Agent Financial Assistant) that directly matches core responsibilities.",
+    "Proficiency in the required tech stack: Python, SQL, JavaScript, LangChain, LangGraph, FastAPI, Streamlit, Docker, MLflow, AWS/GCP basics, and vector databases (Pinecone, ChromaDB, FAISS).",
+    "Demonstrated ability to design AI agents, implement function calling, structured outputs, and workflow automation with LangGraph."
+  ],
+  "weaknesses": [
+    "Limited exposure to foundational ML topics such as supervised learning, model evaluation, feature engineering, and data preprocessing.",
+    "Basic deep learning and NLP knowledge is listed but lacks practical project evidence or depth.",
+    "Missing evidence of multi‑agent systems depth, MCP, knowledge graphs, Kubernetes, CI/CD pipelines, Azure, Hugging Face Transformers, LoRA/QLoRA, fine‑tuning, guardrails, and explicit teamwork collaboration."
+  ],
+  "hiringProbability": "Medium",
+  "atsFeedback": "The resume scores well on generative‑AI‑specific keywords (LLMs, RAG, LangChain, LangGraph, FastAPI, vector DBs, embeddings, semantic search, AI agents, function calling, Docker, MLflow) which align closely with the JD. However, several core ML fundamentals and MLOps‑adjacent terms (supervised learning, model evaluation, feature engineering, data preprocessing, deep learning, NLP, Kubernetes, CI/CD, Azure, Hugging Face, LoRA/QLoRA, guardrails) are absent or weak, which may lower the ATS relevance score for a role that expects those basics. Adding concrete examples or coursework to cover these gaps would improve the match.",
+  "domainAnalysis": "The candidate's domain aligns perfectly with the Generative AI focus of the role; both are centered on LLMs, RAG, and AI agent development.",
+  "experienceAnalysis": "As a third‑year undergraduate, the candidate lacks formal professional experience but demonstrates relevant hands‑on project work that matches internship expectations.",
+  "educationAnalysis": "B.E. in Artificial Intelligence & Data Science satisfies the preferred educational background of B.E./B.Tech in CS, AI, DS, or related fields.",
+  "projectAnalysis": "Projects such as the AI Resume Analyzer, PDF Question Answering System, and Multi‑Agent Financial Assistant directly mirror the JD’s responsibilities—showcasing RAG, vector DBs, LangChain/LangGraph, FastAPI, Streamlit, agent orchestration, tool calling, and structured outputs.",
+  "keywordAnalysis": "Critical keywords like Python, SQL, JavaScript, prompt engineering, LLMs, OpenAI API, RAG, embeddings, semantic search, LangChain, LangGraph, FastAPI, Flask, Streamlit, Docker, MLflow, AWS/GCP, MongoDB, PostgreSQL, ChromaDB/FAISS/Pinecone are present. Missing fundamentals include supervised learning, model evaluation, feature engineering, data preprocessing, deep learning basics, NLP, multi‑agent systems depth, MCP, knowledge graphs, tool calling nuances, Kubernetes, CI/CD, Azure, Hugging Face Transformers, LoRA/QLoRA, fine‑tuning, guardrails, and explicit teamwork evidence.",
+  "gapAnalysis": "To bridge the gaps, the candidate should: 1) Complete coursework or certifications in supervised learning, model evaluation, feature engineering, and data preprocessing; 2) Gain practical NLP and deep learning basics via tutorials or small projects; 3) Build a project that demonstrates multi‑agent coordination using MCP or knowledge graphs; 4) Experiment with Hugging Face Transformers, LoRA/QLoRA, and fine‑tuning LLMs; 5) Set up a CI/CD pipeline (GitHub Actions) and deploy a containerized app to Kubernetes; 6) Obtain Azure fundamentals exposure; 7) Participate in a team‑based open‑source contribution or hackathon to showcase teamwork; 8) Add guardrails/safety tooling (e.g., NeMo Guardrails) to an existing LLM app.",
+  "nextSteps": "1. Enroll in an online supervised learning / ML fundamentals course (e.g., Coursera ML by Andrew Ng) and complete a mini‑project with evaluation metrics.\n2. Finish a short NLP deep‑learning tutorial (Hugging Face NLP course) and implement a simple text classification or NER project.\n3. Extend the Multi‑Agent Financial Assistant to incorporate a basic knowledge graph (using Neo4j or RDF) and document the MCP‑style context passing.\n4. Fine‑tune a small LLM (e.g., DistilBERT) using LoRA on a custom dataset and log the experiment with MLflow.\n5. Create a GitHub Actions workflow that builds, tests, and pushes a Docker image to a registry; deploy the app to a local Kubernetes (kind) cluster.\n6. Complete an Azure Fundamentals (AZ‑900) learning path and add a note on resume.\n7. Join a hackathon or contribute to an open‑source LLM‑related repo; highlight teamwork and collaboration.\n8. Integrate a guardrails library (NeMo Guardrails or Guardrails AI) into the AI Resume Analyzer to demonstrate safety‑aware output."
+}
+[TIMING] Detailed analysis generated in 66902ms
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+✅ [AI] Generated unique answer for: "Describe a situation where you disagreed with a teammate abo..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "How would you design a supervised learning pipeline to fine‑..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "Explain the difference between retrieval‑augmented generatio..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "Provide an example of when you identified a gap in your know..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "Compare LoRA and QLoRA for parameter‑efficient fine‑tuning o..."
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+✅ [AI Engine] Generated 5 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 94947ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+✅ Success
+
+✅ [AI] Generated unique answer for: "Share an experience where you had to present technical resul..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "Discuss a project where you had to balance model performance..."
+✅ Success
+
+✅ [AI] Generated unique answer for: "Given a LangGraph workflow that needs to call an external to..."
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[STEP 2] Resume parsed (0ms)
+[STEP 3] JD extracted (0ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (1ms)
+[STEP 5] ATS Score calculated (2ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models llms",
+  "openai api",
+  "retrieval augmented generation rag",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "mcp model context protocol",
+  "knowledge graphs",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "ci cd pipelines",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "hugging face transformers",
+  "lora",
+  "qlora",
+  "vector databases",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'tool calling',
+  'kubernetes',
+  'ci cd pipelines',
+  'azure',
+  'hugging face transformers',
+  'lora',
+  'qlora',
+  'vector databases',
+  'teamwork'
+]
+[SKILL SCORE] 66
+[SEMANTIC SCORE] 28
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 53
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+[QUALITY GATE] Baseline ATS Match Score: 53%
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+✅ Success
+
+✅ [AI] Generated unique answer for: "Tell me about a time you had to learn a new machine learning..."
+✅ Success
+
+[QUALITY GATE] Attempt 1: REJECTED at Verification Gate. Reasons: [
+  'Lost matched keyword: "large language models llms"',
+  'Lost matched keyword: "retrieval augmented generation rag"',
+  'Lost matched keyword: "langgraph workflows"',
+  'Lost matched keyword: "guardrails safety"',
+  'Lost matched keyword: "ai workflow automation"'
+]
+[QUALITY GATE] Retry 2/3 with corrective feedback...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Unexpected token ']', ..."arn",
+    ]
+  ],
+  ""... is not valid JSON. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+✅ Success
+
+✅ [AI] Generated unique answer for: "Describe a feature engineering strategy for converting raw t..."
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Expected ',' or ']' after array element in JSON at position 18660 (line 188 column 5). Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Provider returned error
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Unexpected non-whitespace character after JSON at position 1033 (line 15 column 1). Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Attempt 2 failed: Provider returned error
+[QUALITY GATE] Retry 3/3 with corrective feedback...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Attempt 3 failed: Provider returned error
+
+======================================================
+[QUALITY GATE] Resume Tailoring Run Complete
+======================================================
+Resume Parsing ........ 0ms (Cached)
+Gemini API ........... 66373ms (3 attempts)
+TOTAL ................. 182251ms
+Final Decision ........ REJECTED — Original Preserved
+
+┌─────────┬────────────┬───────┬───────┬──────────┬────────────────────────────────┐
+│ (index) │ Attempt    │ ATS   │ Skill │ Semantic │ Status                         │
+├─────────┼────────────┼───────┼───────┼──────────┼────────────────────────────────┤
+│ 0       │ 'Baseline' │ '53%' │ '66%' │ '28%'    │ '—'                            │
+│ 1       │ '1'        │ '0%'  │ '0%'  │ '0%'     │ 'REJECTED (VERIFICATION GATE)' │
+│ 2       │ '2'        │ '0%'  │ '0%'  │ '0%'     │ 'ERROR'                        │
+│ 3       │ '3'        │ '0%'  │ '0%'  │ '0%'     │ 'ERROR'                        │
+└─────────┴────────────┴───────┴───────┴──────────┴────────────────────────────────┘
+======================================================
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+
+========================================
+[TAILOR] Request Cache HIT (Total Time: 5ms)
+========================================
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (1ms)
+[STEP 3] JD extracted (0ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (10ms)
+[STEP 5] ATS Score calculated (5ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models llms",
+  "openai api",
+  "retrieval augmented generation rag",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "mcp model context protocol",
+  "knowledge graphs",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "ci cd pipelines",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "hugging face transformers",
+  "lora",
+  "qlora",
+  "vector databases",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'tool calling',
+  'kubernetes',
+  'ci cd pipelines',
+  'azure',
+  'hugging face transformers',
+  'lora',
+  'qlora',
+  'vector databases',
+  'teamwork'
+]
+[SKILL SCORE] 66
+[SEMANTIC SCORE] 28
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 53
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 53ms
+JD Title & Details ..... 0ms
+Database Shell Write ... 57ms
+TOTAL Latency .......... 110ms
+======================================================
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Provider returned error
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with python and a project ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with javascript and a proj...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about supervised learning? How wo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about model evaluation? How would...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: limit_rpm/qwen/qwen3-coder-480b-a35b-07-25/a9bbd882-011f-4606-8f60-85f3cb642586. High demand for qwen/qwen3-coder:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Rate limit exceeded: limit_rpm/meta-llama/llama-3.3-70b-instruct/839b2e30-a1b4-4974-b980-3e534b5873b1. High demand for meta-llama/llama-3.3-70b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with sql and a project you...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+✅ [AI Engine] Generated 5 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 19281ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+✅ Success
+
+Raw LLM Detailed Analysis Response:
+{
+  "resumeSummary": "Rishi Sharma is a third‑year B.E. student in Artificial Intelligence & Data Science with solid Python skills and hands‑on experience building LLM‑powered applications, RAG pipelines, and AI agents using LangChain, LangGraph, FastAPI, and vector databases. He has delivered several end‑to‑end projects such as an AI Resume Analyzer, a multi‑agent financial assistant, and a document QA system, and is familiar with MLOps tools like Docker, Git, and MLflow.",
+  "jdSummary": "The Generative AI Intern role seeks a proactive early‑career candidate to develop LLM applications, RAG pipelines, and AI agents, implement prompt engineering, build FastAPI/Flask services, and use vector stores and cloud resources while following MLOps best practices. Core requirements include Python, SQL, basic JavaScript, prompt engineering, LangChain/LangGraph, and exposure to cloud (AWS/GC) and MLflow.",
+  "strengths": [
+    "Extensive hands‑on experience with LLMs, prompt engineering, RAG, embeddings, and vector DBs (Pinecone, ChromaDB, FAISS).",
+    "Proven ability to build production‑style APIs with FastAPI and deploy interactive dashboards via Streamlit.",
+    "Familiarity with MLOps stack (Docker, Git, MLflow) and basic cloud services (AWS, GCP) matching the JD's technical stack."
+  ],
+  "weaknesses": [
+    "Limited explicit experience with supervised learning pipelines, model evaluation, and classic ML feature engineering expected by the JD.",
+    "No demonstrated work with Azure, CI/CD pipelines, or Kubernetes, which are listed as preferred or bonus skills.",
+    "Teamwork and collaboration evidence is minimal; the resume focuses on solo projects without clear cross‑functional interaction."
+  ],
+  "hiringProbability": "Medium",
+  "atsFeedback": "The resume contains a high density of core keywords such as Python, SQL, JavaScript, Prompt Engineering, LLM, LangChain, LangGraph, FastAPI, Flask, Vector Databases, MongoDB, PostgreSQL, Docker, Git, and MLflow, leading to a strong ATS match. However, the lack of explicit mentions of supervised learning, model evaluation, and Azure reduces the overall score. Adding those terms and highlighting collaborative experiences would improve ranking.",
+  "domainAnalysis": "The candidate’s focus on Generative AI, LLM applications, and retrieval‑augmented generation aligns tightly with the internship’s emphasis on cutting‑edge AI product development, indicating a strong domain match.",
+  "experienceAnalysis": "Rishi presents project‑level experience equivalent to 1‑2 years of practical work, which is appropriate for an internship but below senior‑level expectations. The depth of his project implementations compensates for limited formal work history.",
+  "educationAnalysis": "Pursuing a B.E. in Artificial Intelligence & Data Science satisfies the JD’s preferred academic background. The curriculum likely covers many of the required fundamentals, reinforcing his suitability.",
+  "projectAnalysis": "Projects directly echo JD responsibilities: AI Resume Analyzer (resume parsing, skill gap analysis, RAG), Document QA System (PDF processing, embeddings, FAISS), and Multi‑Agent Financial Assistant (AI agents, LangGraph, tool calling). These showcase relevant technical capabilities and product thinking.",
+  "keywordAnalysis": "Present: Python, SQL, JavaScript, Prompt Engineering, LLM, OpenAI API, Retrieval‑Augmented Generation, Embeddings, Semantic Search, AI Agents, LangChain, LangGraph, FastAPI, Flask, Streamlit, MongoDB, PostgreSQL, Pinecone, FAISS, Docker, Git, MLflow, AWS, GCP. Missing/low: Supervised Learning, Model Evaluation, Feature Engineering, Data Preprocessing, Azure, CI/CD, Kubernetes, Hugging Face, LoRA/QLoRA, Guardrails, Tool Calling (mentioned but not emphasized).",
+  "gapAnalysis": "1. Highlight any supervised learning, model evaluation, or feature engineering work (even academic) and add those keywords. 2. Gain exposure to Azure and CI/CD tools (e.g., GitHub Actions, Jenkins) and explicitly list them. 3. Emphasize collaborative aspects—team projects, code reviews, or contributions to open‑source— to address teamwork expectations. 4. Add brief bullet points on safety/guardrails or tool‑calling implementations to capture bonus skill keywords.",
+  "nextSteps": [
+    "Update the resume to include supervised learning, model evaluation, and data preprocessing experiences from coursework or labs.",
+    "Add Azure and CI/CD pipeline tools (GitHub Actions, Jenkins, or Azure DevOps) to the Technical Skills section.",
+    "Insert a concise ‘Team Collaboration’ bullet under each project, noting code reviews, pair programming, or cross‑functional communication.",
+    "Create a short section on AI safety/guardrails or tool‑calling implementations, referencing the Multi‑Agent Financial Assistant project.",
+    "Tailor the professional summary to mirror the JD language (e.g., “enthusiastic about building production‑grade LLM applications and scalable AI workflows”)."
+  ]
+}
+[TIMING] Detailed analysis generated in 56098ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+
+========================================
+[TAILOR] Request Cache HIT (Total Time: 0ms)
+========================================
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (0ms)
+[STEP 3] JD extracted (0ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (2ms)
+[STEP 5] ATS Score calculated (1ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models llms",
+  "openai api",
+  "retrieval augmented generation rag",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "mcp model context protocol",
+  "knowledge graphs",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "ci cd pipelines",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "hugging face transformers",
+  "lora",
+  "qlora",
+  "vector databases",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'tool calling',
+  'kubernetes',
+  'ci cd pipelines',
+  'azure',
+  'hugging face transformers',
+  'lora',
+  'qlora',
+  'vector databases',
+  'teamwork'
+]
+[SKILL SCORE] 66
+[SEMANTIC SCORE] 28
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 53
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 17ms
+JD Title & Details ..... 0ms
+Database Shell Write ... 18ms
+TOTAL Latency .......... 35ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: Provider returned error
+[TIMING] Detailed analysis generated in 6895ms
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+
+========================================
+[TAILOR] Request Cache HIT (Total Time: 1ms)
+========================================
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with javascript and a proj...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about model evaluation? How would...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with sql and a project you...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with python and a project ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about supervised learning? How wo...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Rate limit exceeded: limit_rpm/qwen/qwen3-coder-480b-a35b-07-25/a9bbd882-011f-4606-8f60-85f3cb642586. High demand for qwen/qwen3-coder:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+✅ Resume text extracted, length: 4422
+✅ Structured data extracted
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+⚠️ AI generation timed out or failed after 30000ms: AI Request Timeout
+✅ [AI Engine] Generated 5 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 41055ms
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Gemini skill extraction failed: Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Gemini profile extraction failed: Provider returned error
+⚠️ Using hardcoded skill extraction
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+✅ Success
+
+✅ [AI] Generated unique answer for: "Describe a situation where you had to learn a new technology..."
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (0ms)
+[STEP 3] JD extracted (0ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (1ms)
+[STEP 5] ATS Score calculated (3ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[
+  "python",
+  "sql",
+  "javascript",
+  "supervised learning",
+  "model evaluation",
+  "feature engineering",
+  "data preprocessing",
+  "prompt engineering",
+  "large language models llms",
+  "openai api",
+  "retrieval augmented generation rag",
+  "embeddings",
+  "semantic search",
+  "ai agents",
+  "deep learning",
+  "nlp",
+  "multi agent systems",
+  "langgraph workflows",
+  "mcp model context protocol",
+  "knowledge graphs",
+  "guardrails safety",
+  "tool calling",
+  "function calling",
+  "ai workflow automation",
+  "git",
+  "github",
+  "docker",
+  "mlflow",
+  "kubernetes",
+  "ci cd pipelines",
+  "aws",
+  "google cloud",
+  "azure",
+  "mongodb",
+  "postgresql",
+  "chromadb",
+  "faiss",
+  "pinecone",
+  "hugging face transformers",
+  "lora",
+  "qlora",
+  "vector databases",
+  "langchain",
+  "langgraph",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "problem solving",
+  "communication",
+  "teamwork"
+]
+[MATCHED SKILLS] [
+  'python',
+  'sql',
+  'javascript',
+  'prompt engineering',
+  'large language models llms',
+  'openai api',
+  'retrieval augmented generation rag',
+  'embeddings',
+  'semantic search',
+  'ai agents',
+  'langgraph workflows',
+  'guardrails safety',
+  'function calling',
+  'ai workflow automation',
+  'git',
+  'github',
+  'docker',
+  'mlflow',
+  'aws',
+  'google cloud',
+  'mongodb',
+  'postgresql',
+  'chromadb',
+  'faiss',
+  'pinecone',
+  'langchain',
+  'langgraph',
+  'fastapi',
+  'flask',
+  'streamlit',
+  'problem solving',
+  'communication'
+]
+[MISSING SKILLS] [
+  'supervised learning',
+  'model evaluation',
+  'feature engineering',
+  'data preprocessing',
+  'deep learning',
+  'nlp',
+  'multi agent systems',
+  'mcp model context protocol',
+  'knowledge graphs',
+  'tool calling',
+  'kubernetes',
+  'ci cd pipelines',
+  'azure',
+  'hugging face transformers',
+  'lora',
+  'qlora',
+  'vector databases',
+  'teamwork'
+]
+[SKILL SCORE] 66
+[SEMANTIC SCORE] 28
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 85
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 53
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 17ms
+JD Title & Details ..... 1ms
+Database Shell Write ... 18ms
+TOTAL Latency .......... 36ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Provider returned error
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[TIMING] Detailed analysis generated in 7769ms
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Provider returned error
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with sql and a project you...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with javascript and a proj...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about supervised learning? How wo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Explain your experience with python and a project ...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "What do you know about model evaluation? How would...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+✅ [AI Engine] Generated 5 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 19732ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (0ms)
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+[EXTRACT JD FALLBACK] Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[STEP 3] JD extracted (6240ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (1ms)
+[STEP 5] ATS Score calculated (1ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[]
+[MATCHED SKILLS] []
+[MISSING SKILLS] []
+[SKILL SCORE] 0
+[SEMANTIC SCORE] 0
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 50
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 15
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 6254ms
+JD Title & Details ..... 2ms
+Database Shell Write ... 30ms
+TOTAL Latency .......... 6287ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Provider returned error
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[TIMING] Detailed analysis generated in 7103ms
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: limit_rpm/meta-llama/llama-3.3-70b-instruct/839b2e30-a1b4-4974-b980-3e534b5873b1. High demand for meta-llama/llama-3.3-70b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+✅ [AI Engine] Generated 0 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 18566ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (1ms)
+[STEP 3] JD extracted (0ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (1ms)
+[STEP 5] ATS Score calculated (0ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[]
+[MATCHED SKILLS] []
+[MISSING SKILLS] []
+[SKILL SCORE] 0
+[SEMANTIC SCORE] 0
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 50
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 15
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 6ms
+JD Title & Details ..... 1ms
+Database Shell Write ... 25ms
+TOTAL Latency .......... 32ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 504. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: The operation was aborted
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 504. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: The operation was aborted
+[TIMING] Detailed analysis generated in 14144ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Empty response choices from OpenRouter. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+✅ [AI Engine] Generated 0 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 36055ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+[STEP 2] Resume parsed (0ms)
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+[EXTRACT JD FALLBACK] Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[STEP 3] JD extracted (5313ms)
+  [DOMAIN CACHE HIT] hint="resume" → domain="Unknown" (confidence=0)
+  [DOMAIN CACHE HIT] hint="jd" → domain="Unknown" (confidence=0)
+[STEP 4] Embeddings generated (2ms)
+[STEP 5] ATS Score calculated (0ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "python",
+  "sql",
+  "java",
+  "javascript",
+  "scikit learn",
+  "xgboost",
+  "catboost",
+  "lightgbm",
+  "pandas",
+  "numpy",
+  "pytorch",
+  "tensorflow",
+  "keras",
+  "large language models llms",
+  "prompt engineering",
+  "retrieval augmented generation rag",
+  "ai agents",
+  "function calling",
+  "structured output",
+  "embeddings",
+  "semantic search",
+  "context engineering",
+  "mongodb",
+  "machine learning",
+  "ai",
+  "data science",
+  "finite element analysis",
+  "docker",
+  "git",
+  "github actions",
+  "dvc",
+  "mlflow",
+  "aws basics",
+  "google cloud basics",
+  "postgresql",
+  "mysql",
+  "pinecone",
+  "chromadb",
+  "faiss",
+  "weaviate",
+  "fastapi",
+  "flask",
+  "streamlit",
+  "rest apis",
+  "langchain",
+  "langgraph",
+  "problem solving",
+  "analytical thinking",
+  "communication",
+  "team collaboration",
+  "technical documentation",
+  "agile development"
+]
+Extracted JD Skills:
+[]
+[MATCHED SKILLS] []
+[MISSING SKILLS] []
+[SKILL SCORE] 0
+[SEMANTIC SCORE] 0
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 50
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 15
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 5348ms
+JD Title & Details ..... 1ms
+Database Shell Write ... 22ms
+TOTAL Latency .......... 5372ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+[TIMING] Detailed analysis generated in 5863ms
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Provider returned error
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: limit_rpm/qwen/qwen3-coder-480b-a35b-07-25/a9bbd882-011f-4606-8f60-85f3cb642586. High demand for qwen/qwen3-coder:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+✅ [AI Engine] Generated 0 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 19861ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[STEP 1] Match request received
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+[EXTRACT RESUME FALLBACK] Provider returned error
+[STEP 2] Resume parsed (7701ms)
+[STEP 3] JD extracted (1ms)
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="resume"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+
+════════════════════════════════════════════════════════════
+  DOMAIN CLASSIFICATION — hint="jd"
+════════════════════════════════════════════════════════════
+  [STAGE 0] Evidence (0 items): []
+  [STAGE 1] Rule-Based Scores (top 3):
+    Frontend Development: score=0 coreMatches=0 signals=[]
+    Backend Development: score=0 coreMatches=0 signals=[]
+    Full Stack Development: score=0 coreMatches=0 signals=[]
+  [STAGE 1] Candidate: "Unknown" — No core domain signals found in evidence
+  [STAGE 2] Cross-Validation: ✅ PASS — No validation needed for Unknown
+  [FINAL] "Unknown" — insufficient evidence
+[STEP 4] Embeddings generated (53ms)
+[STEP 5] ATS Score calculated (2ms)
+[DOMAIN DETECTION] { domainResume: 'Unknown', domainJD: 'Unknown' }
+Extracted Resume Skills:
+[
+  "java",
+  "python",
+  "javascript",
+  "mongodb",
+  "sql",
+  "machine learning",
+  "ai",
+  "data science",
+  "numpy",
+  "pandas",
+  "scikit learn",
+  "finite element analysis"
+]
+Extracted JD Skills:
+[]
+[MATCHED SKILLS] []
+[MISSING SKILLS] []
+[SKILL SCORE] 0
+[SEMANTIC SCORE] 0
+[EXPERIENCE SCORE] 50
+[EDUCATION SCORE] 50
+[CERTIFICATION SCORE] 50
+[DOMAIN MATCH] 1
+[FINAL SCORE] 15
+🎯 Role Intent: technical
+⛔ Negations found: []
+⛔ Excluded skills: []
+🔴 Overqualified: false
+⚠️ Could not save to DB (MongoDB unavailable), saving to in-memory storage
+
+======================================================
+[JOB ANALYSIS] Initial ATS Match Phase Completed
+======================================================
+ATS Engine Score Match . 7780ms
+JD Title & Details ..... 1ms
+Database Shell Write ... 31ms
+TOTAL Latency .......... 7813ms
+======================================================
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+🚀 [AI Engine] Attempting batch suggestions & guides generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Batch suggestions & guides generation failed: Provider returned error
+⚠️ Batch generation failed or not configured. Falling back to parallel base generation...
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ Detailed analysis generation failed, using fallback: Provider returned error
+[TIMING] Detailed analysis generated in 6417ms
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI generation of base questions failed: Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+Trying Model 1:
+meta-llama/llama-3.3-70b-instruct:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model meta-llama/llama-3.3-70b-instruct:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 2:
+openai/gpt-oss-120b:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model openai/gpt-oss-120b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 3:
+qwen/qwen3-coder:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model qwen/qwen3-coder:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 4:
+google/gemma-4-31b-it:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model google/gemma-4-31b-it:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 5:
+nvidia/nemotron-3-super-120b-a12b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model nvidia/nemotron-3-super-120b-a12b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 6:
+openai/gpt-oss-20b:free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+❌ Model openai/gpt-oss-20b:free failed with recoverable error: Request failed with status code 429. Retrying next model...
+Trying Model 7:
+openrouter/free
+
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a failure and what you learned from ...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a challenging bug you debugged and how yo...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Tell me about a time you worked in a team under pr...": Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "Describe a situation where you had to learn a new ...": Provider returned error
+❌ Model openrouter/free failed with recoverable error: Request failed with status code 429. Retrying next model...
+⚠️ AI answer generation failed for "How do you prioritize tasks when working on multip...": Provider returned error
+✅ [AI Engine] Generated 0 technical + 5 behavioral questions (parallel mode)
+[TIMING] Suggestions & questions generated in 17535ms
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline
+[WORKSPACE SAVE] MongoDB unavailable, saving to inMemoryDB: MongoDB is offline
+[WORKSPACE GET] MongoDB unavailable, checking inMemoryDB: MongoDB is offline

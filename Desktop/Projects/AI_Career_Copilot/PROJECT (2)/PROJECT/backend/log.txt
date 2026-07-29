@@ -1,0 +1,13 @@
+✅ Loaded offline database (Profiles: 2)
+◇ injected env (13) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+◇ injected env (0) from .env // tip: ⌘ enable debugging { debug: true }
+URI: mongodb+srv://careercopilot:CareerCopilot2026@career-copilot-cluster.q35gzhu.mongodb.net/career_copilot?retryWrites=true&w=majority&appName=career-copilot-cluster
+MATCH_ENGINE=ats
+ATS ENGINE ACTIVE
+OPENAI_API_KEY present: false
+OPENAI_API_KEY length: 0
+Server running on port 5001
+⚠️ MongoDB disconnected.
+⚠️ MongoDB Connection Failed: bad auth : authentication failed
+⚠️ MongoDB connection error: bad auth : authentication failed
+🚀 Falling back to persistent offline JSON database.

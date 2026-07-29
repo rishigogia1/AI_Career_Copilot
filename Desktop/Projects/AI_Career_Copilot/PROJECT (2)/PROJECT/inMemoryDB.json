@@ -1,0 +1,21 @@
+{
+  "users": [],
+  "otps": [],
+  "analyses": [],
+  "profiles": [
+    {
+      "userId": "6a410ca6230096d6f05460e3",
+      "fullName": "Rishi Gogia",
+      "targetRole": "Senior ML Engineer",
+      "careerGoal": "ML Engineer",
+      "college": "Stanford University",
+      "graduationYear": "2027",
+      "linkedin": "https://linkedin.com/in/rishigogia",
+      "github": "https://github.com/rishigogia",
+      "portfolio": "https://rishigogia.com",
+      "bio": "Passionate about AI/ML and full stack development.",
+      "profilePicture": "data:image/png;base64,mockbase64data",
+      "onboardingComplete": true
+    }
+  ]
+}
